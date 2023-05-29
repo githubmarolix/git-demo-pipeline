@@ -21,6 +21,7 @@ pipeline{
       steps{
             echo "hello"
       }
+  }
       stage('four'){
           parallel{
               stage('unit test'){
@@ -41,5 +42,5 @@ pipeline{
               }       
           }
       }
-          }
+  }
       }
