@@ -6,6 +6,5 @@ pipeline{
                  echo "hi, this is srinu from rjy "
           }
       }
- 
-}
+  }
 }
